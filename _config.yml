@@ -1,0 +1,22 @@
+title: NAGL
+description: NAGL - News, Activities, Groups & Listings
+baseurl: "/nagl"
+url: "https://tkrajina.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /news/:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /news/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

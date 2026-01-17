@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="site-title">NAGL</a>
+      <ul class="nav-links">
+        <li><a href="{{ '/about' | relative_url }}">About</a></li>
+        <li><a href="{{ '/clubs-and-meetings' | relative_url }}">Clubs & Meetings</a></li>
+        <li><a href="{{ '/calendar' | relative_url }}">Calendar</a></li>
+        <li><a href="{{ '/news' | relative_url }}">News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ 'now' | date: "%Y" }} NAGL. All rights reserved.</p>
+  </footer>
+</body>
+</html>
