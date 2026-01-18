@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to NAGL
 
-Your community hub for news, activities, groups, and listings.
+Three countries, one board. We are a cross-border community where Go is the language that connects the Italian, Slovenian, and Croatian shores.
 
 ## Quick Links
 
