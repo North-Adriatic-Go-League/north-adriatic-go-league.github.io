@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<header class="hero">
+    <h1>{{ site.title }}</h1>
+    <p>{{ page.subtitle }}</p>
+</header>
+
+<main class="card-container">
+    {{ content }}
+</main>
+
+<section class="leaderboard-section">
+    <h2 class="leaderboard-title">League Standings</h2>
+    <div class="table-container">
+        <div class="team-row header">
+            <div>Pos</div>
+            <div>Club</div>
+            <div style="text-align:center">W - L</div>
+            <div style="text-align:center">Pts</div>
+        </div>
+        <div class="team-row">
+            <div class="rank">#1</div>
+            <div class="city-info">🇸🇮 Sežana</div>
+            <div class="win-loss">4 - 0</div>
+            <div class="points">12</div>
+        </div>
+        <div class="team-row">
+            <div class="rank">#2</div>
+            <div class="city-info">🇮🇹 Gorizia</div>
+            <div class="win-loss">3 - 1</div>
+            <div class="points">9</div>
+        </div>
+    </div>
+</section>
+
+<section class="next-stone">
+    <span>The Next Stone</span>
+    <h3>{{ page.next_event_title }}</h3>
+    <p>{{ page.next_event_details }}</p>
+</section>
