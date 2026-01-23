@@ -1,10 +1,10 @@
 /* --- NORTH ADRIATIC GO LEAGUE | EDITORIAL STYLE --- */
 
 :root {
-    --bg: #f4f4f2;         /* Colore carta/crema */
+    --bg: #f4f4f2;         
     --card-bg: #ffffff;
     --text: #2c2c2c;
-    --accent: #8b5e3c;     /* Colore legno Goban */
+    --accent: #8b5e3c;     
     --black: #1a1a1a;
     --border: #ddd;
 }
