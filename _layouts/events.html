@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="blog-page-wrapper">
+    <header class="hero-small">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.subtitle }}</p>
+    </header>
+
+    <section class="blog-container">
+        {% assign sorted_events = site.events | sort: 'date' %}
+        {% for event in sorted_events %}
+        <article class="blog-post-card">
+            <span class="post-date">{{ event.location }} • {{ event.date | date: "%B %d, %Y" }}</span>
+            <h2><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h2>
+            <p>{{ event.description }}</p>
+            <a href="{{ event.url | relative_url }}" class="read-link">Event Details →</a>
+        </article>
+        {% endfor %}
+    </section>
+</div>
