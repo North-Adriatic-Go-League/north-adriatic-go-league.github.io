@@ -2,6 +2,7 @@
 layout: editorial
 title: "The Vision"
 subtitle: "Crossing borders, one stone at a time."
+permalink: /league/
 ---
 
 The **North Adriatic Go League** (NAGL) was born from a simple yet profound realization: the ancient game of Go knows no borders. In a region where history has often drawn lines, we choose to place stones that connect them.
@@ -16,5 +17,15 @@ While the spirit of competition drives our matches, the NAGL is primarily a comm
 * **Foster** a new generation of players who see the Adriatic not as a barrier, but as a shared home.
 
 > "The board is a mirror of the mind; the league is a mirror of our shared future."
+
+### Our Founding Clubs
+Below are the clubs currently participating in the League. You can explore their local activities through the links below:
+
+* [**Trieste Go Club**](#) – Italy
+* [**Gorizia Go Club**](#) – Italy
+* [**Sežana Go Club**](#) – Slovenia
+* [**Udine Go Club**](#) – Italy
+* [**Poreč Go Club**](#) – Croatia
+* [**Ronchi Go Club**](#) – Italy
 
 Whether you are a 9-dan master or a curious beginner, there is a place for you at our table. Join us as we write the next chapter of Go in the North Adriatic.
