@@ -1,5 +1,5 @@
 ---
-layout: events-list
+layout: events
 title: "League Events"
 subtitle: "Matches and workshops across the North Adriatic borders"
 ---
