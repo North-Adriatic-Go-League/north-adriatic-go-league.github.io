@@ -1,8 +1,8 @@
 title: North Adriatic Go League
 email: info@nagl.org
 description: A cross-border alliance of stones and friendship.
-baseurl: "" 
-url: "https://north-adriatic-go-league.github.io"
+baseurl: "/nagl.io" 
+url: "https://oiram85.github.io/nagl.io/"
 
 # Build settings
 markdown: kramdown
