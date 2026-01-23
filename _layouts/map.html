@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<div class="blog-page-wrapper">
+    <header class="hero-small">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.subtitle }}</p>
+    </header>
+
+    <div id="map" style="height: 500px; width: 100%; background: #1a1a1a;"></div>
+
+    <section class="blog-container">
+        {{ content }}
+    </section>
+</div>
+
+<script>
+    // Inizializza la mappa centrata sull'Alto Adriatico
+    var map = L.map('map').setView([45.7, 13.7], 8);
+
+    // Carica lo stile Bianco e Nero (Dark Mode)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap &copy; CARTO'
+    }).addTo(map);
+
+    // Dati dei Club (puoi aggiungerne altri qui)
+    var clubs = [
+        { name: "Gorizia Go Club", coords: [45.940, 13.620], desc: "The border stone." },
+        { name: "Trieste Go Club", coords: [45.649, 13.776], desc: "Historic maritime club." },
+        { name: "Udine Go Club", coords: [46.062, 13.234], desc: "Stones in the heart of Friuli." },
+        { name: "Sežana Go Club", coords: [45.703, 13.873], desc: "The Slovenian fortress." },
+        { name: "Poreč Go Club", coords: [45.227, 13.594], desc: "Go by the Istrian sea." }
+    ];
+
+    // Aggiungi i Marker alla mappa
+    clubs.forEach(function(club) {
+        var marker = L.circleMarker(club.coords, {
+            color: '#8b5e3c', // Il tuo colore accent
+            fillColor: '#8b5e3c',
+            fillOpacity: 0.8,
+            radius: 8
+        }).addTo(map);
+
+        // Tooltip che appare al passaggio del mouse (Hover)
+        marker.bindTooltip("<b>" + club.name + "</b><br>" + club.desc);
+    });
+</script>
