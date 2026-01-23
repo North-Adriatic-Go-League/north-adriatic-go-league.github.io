@@ -1,6 +1,7 @@
-title: NAGL
-description: NAGL - News, Activities, Groups & Listings
-baseurl: "/"
+title: North Adriatic Go League
+email: info@nagl.org
+description: A cross-border alliance of stones and friendship.
+baseurl: "" 
 url: "https://north-adriatic-go-league.github.io"
 
 # Build settings
