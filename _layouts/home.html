@@ -32,10 +32,10 @@ layout: default
 
 <section class="next-stone">
     <span>The Next Stone</span>
-    {% assign last_post = site.posts.first %}
-    {% if last_post %}
-        <h3>{{ last_post.title }}</h3>
-        <p>{{ last_post.date | date: "%d %B, %Y" }}</p>
-        <a href="{{ last_post.url | relative_url }}">Read Details →</a>
+    {% assign last_event = site.events.first %}
+    {% if last_event %}
+        <h3>{{ last_event.title }}</h3>
+        <p>{{ last_event.date | date: "%d %B, %Y" }}</p>
+        <a href="{{ last_event.url | relative_url }}">Read Details →</a>
     {% endif %}
 </section>
