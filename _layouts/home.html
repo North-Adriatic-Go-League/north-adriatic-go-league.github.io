@@ -8,47 +8,34 @@ layout: default
 </header>
 
 <main class="card-container">
-    {{ content }}
+    <div class="card">
+        <h2>The Vision</h2>
+        <p>{{ page.vision_text }}</p>
+    </div>
+
+    <div class="card" style="border-top-color: #2c3e50;">
+        <h2>The Format</h2>
+        <p>{{ page.format_text }}</p>
+    </div>
+
+    <div class="card" style="border-top-color: #1a1a1a;">
+        <h2>Join Us</h2>
+        <p>{{ page.join_text }}</p>
+    </div>
 </main>
 
 <section class="leaderboard-section">
     <h2 class="leaderboard-title">League Standings</h2>
     <div class="table-container">
-        <div class="team-row header">
-            <div>Pos</div>
-            <div>Club</div>
-            <div style="text-align:center">W - L</div>
-            <div style="text-align:center">Pts</div>
         </div>
-        <div class="team-row">
-            <div class="rank">#1</div>
-            <div class="city-info">🇸🇮 Sežana</div>
-            <div class="win-loss">4 - 0</div>
-            <div class="points">12</div>
-        </div>
-        <div class="team-row">
-            <div class="rank">#2</div>
-            <div class="city-info">🇮🇹 Gorizia</div>
-            <div class="win-loss">3 - 1</div>
-            <div class="points">9</div>
-        </div>
-    </div>
 </section>
 
-<!--<section class="next-stone">
-    <span>The Next Stone</span>
-    <h3>{{ page.next_event_title }}</h3>
-    <p>{{ page.next_event_details }}</p>
-</section>-->
 <section class="next-stone">
     <span>The Next Stone</span>
     {% assign last_post = site.posts.first %}
     {% if last_post %}
         <h3>{{ last_post.title }}</h3>
-        <p>{{ last_post.date | date: "%d %B, %Y" }} • {{ last_post.location | default: "Club House" }}</p>
-        <a href="{{ last_post.url | relative_url }}" style="color: white; font-size: 0.8rem; text-transform: uppercase;">Read Details →</a>
-    {% else %}
-        <h3>No stones played yet</h3>
-        <p>Stay tuned for the next match.</p>
+        <p>{{ last_post.date | date: "%d %B, %Y" }}</p>
+        <a href="{{ last_post.url | relative_url }}">Read Details →</a>
     {% endif %}
 </section>
