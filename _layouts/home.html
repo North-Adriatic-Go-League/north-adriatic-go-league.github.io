@@ -35,8 +35,20 @@ layout: default
     </div>
 </section>
 
-<section class="next-stone">
+<!--<section class="next-stone">
     <span>The Next Stone</span>
     <h3>{{ page.next_event_title }}</h3>
     <p>{{ page.next_event_details }}</p>
+</section>-->
+<section class="next-stone">
+    <span>The Next Stone</span>
+    {% assign last_post = site.posts.first %}
+    {% if last_post %}
+        <h3>{{ last_post.title }}</h3>
+        <p>{{ last_post.date | date: "%d %B, %Y" }} • {{ last_post.location | default: "Club House" }}</p>
+        <a href="{{ last_post.url | relative_url }}" style="color: white; font-size: 0.8rem; text-transform: uppercase;">Read Details →</a>
+    {% else %}
+        <h3>No stones played yet</h3>
+        <p>Stay tuned for the next match.</p>
+    {% endif %}
 </section>
