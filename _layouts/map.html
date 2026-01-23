@@ -1,8 +1,62 @@
 ---
 layout: default
 ---
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+    /* --- Specific stype for popup --- */
+    .leaflet-popup-content-wrapper {
+        background: var(--black) !important;
+        color: white !important;
+        border-radius: 0px !important;
+        box-shadow: 0 15px 45px rgba(0,0,0,0.4);
+    }
+
+    .leaflet-popup-tip {
+        background: var(--black) !important;
+    }
+
+    .leaflet-popup-content {
+        margin: 20px !important;
+        min-width: 220px;
+    }
+
+    .nagl-popup-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.4rem;
+        color: var(--accent);
+        display: block;
+        margin-bottom: 5px;
+        line-height: 1.2;
+    }
+
+    .nagl-popup-desc {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        opacity: 0.8;
+        margin-top: 10px;
+    }
+
+    .nagl-popup-footer {
+        display: block;
+        margin-top: 15px;
+        padding-top: 10px;
+        border-top: 1px solid #333;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #666;
+    }
+
+    /* Remove background color white */
+    #map {
+        background: #111;
+        cursor: crosshair;
+    }
+</style>
 
 <div class="blog-page-wrapper">
     <header class="hero-small">
@@ -10,41 +64,87 @@ layout: default
         <p>{{ page.subtitle }}</p>
     </header>
 
-    <div id="map" style="height: 500px; width: 100%; background: #1a1a1a;"></div>
+    <div id="map" style="height: 600px; width: 100%;"></div>
 
     <section class="blog-container">
-        {{ content }}
+        <div class="blog-intro" style="text-align: center;">
+            {{ content }}
+        </div>
     </section>
 </div>
 
 <script>
-    // Inizializza la mappa centrata sull'Alto Adriatico
-    var map = L.map('map').setView([45.7, 13.7], 8);
+    // 1. Init map: Center to regions
+    var map = L.map('map', {
+        scrollWheelZoom: false 
+    }).setView([45.8, 13.8], 8);
 
-    // Carica lo stile Bianco e Nero (Dark Mode)
+    // 2. Load Tile "Dark"
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; OpenStreetMap &copy; CARTO'
     }).addTo(map);
 
-    // Dati dei Club (puoi aggiungerne altri qui)
+    // 3. Database Club
     var clubs = [
-        { name: "Gorizia Go Club", coords: [45.940, 13.620], desc: "The border stone." },
-        { name: "Trieste Go Club", coords: [45.649, 13.776], desc: "Historic maritime club." },
-        { name: "Udine Go Club", coords: [46.062, 13.234], desc: "Stones in the heart of Friuli." },
-        { name: "Sežana Go Club", coords: [45.703, 13.873], desc: "The Slovenian fortress." },
-        { name: "Poreč Go Club", coords: [45.227, 13.594], desc: "Go by the Istrian sea." }
+        { 
+            name: "Trieste Go Club", 
+            coords: [45.649, 13.776], 
+            desc: "The historic hub by the sea. Meeting point for international stones." 
+        },
+        { 
+            name: "Gorizia Go Club", 
+            coords: [45.940, 13.620], 
+            desc: "Bridging the border since the beginning. A symbol of union." 
+        },
+        { 
+            name: "Sežana Go Club", 
+            coords: [45.703, 13.873], 
+            desc: "Where the Karst landscape meets the strategic intensity of Go." 
+        },
+        { 
+            name: "Udine Go Club", 
+            coords: [46.062, 13.234], 
+            desc: "The friulian heart of the league. Strong players, warm welcome." 
+        },
+        { 
+            name: "Poreč Go Club", 
+            coords: [45.227, 13.594], 
+            desc: "Istrian excellence. Spreading the game along the beautiful coast." 
+        },
+        { 
+            name: "Ronchi Go Club", 
+            coords: [45.827, 13.506], 
+            desc: "A growing community in the heart of the bisiacaria region." 
+        }
     ];
 
-    // Aggiungi i Marker alla mappa
+    // 4. Marker and Popup
     clubs.forEach(function(club) {
         var marker = L.circleMarker(club.coords, {
-            color: '#8b5e3c', // Il tuo colore accent
-            fillColor: '#8b5e3c',
-            fillOpacity: 0.8,
-            radius: 8
+            color: '#ffffff',
+            weight: 1,
+            fillColor: '#8b5e3c', 
+            fillOpacity: 0.9,
+            radius: 10
         }).addTo(map);
 
-        // Tooltip che appare al passaggio del mouse (Hover)
-        marker.bindTooltip("<b>" + club.name + "</b><br>" + club.desc);
+        // Template HTML for Popup
+        var popupHTML = `
+            <div class="nagl-popup-content">
+                <span class="nagl-popup-title">${club.name}</span>
+                <div class="nagl-popup-desc">${club.desc}</div>
+                <span class="nagl-popup-footer">NAGL Member Club</span>
+            </div>
+        `;
+
+        marker.bindPopup(popupHTML, {
+            maxWidth: 300,
+            className: 'nagl-custom-popup'
+        });
+
+        // Hover
+        marker.on('mouseover', function (e) {
+            this.openPopup();
+        });
     });
 </script>
