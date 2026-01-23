@@ -193,7 +193,7 @@ nav a:hover { color: var(--accent); }
     min-width: 350px;
 }
 
-.win-loss { display: none; } /* Nascosto su mobile */
+.win-loss { display: none; } /* Hide on mobile */
 
 @media (min-width: 650px) {
     .team-row { grid-template-columns: 70px 1fr 100px 100px; }
@@ -256,6 +256,30 @@ nav a:hover { color: var(--accent); }
 }
 
 /* --- BLOG PAGE --- */
+hero-small {
+    padding: 6rem 5% 4rem; 
+    background: var(--black); 
+    color: white;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-small h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-small p {
+    font-style: italic;
+    opacity: 0.8;
+    max-width: 600px; 
+    margin-top: 10px;
+}
+
 .blog-container {
     max-width: 800px;
     margin: 4rem auto;
