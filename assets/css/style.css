@@ -1,13 +1,17 @@
+/* --- NORTH ADRIATIC GO LEAGUE | EDITORIAL STYLE --- */
+
 :root {
-    --bg: #f4f4f2;
+    --bg: #f4f4f2;         /* Colore carta/crema */
     --card-bg: #ffffff;
     --text: #2c2c2c;
-    --accent: #8b5e3c;
+    --accent: #8b5e3c;     /* Colore legno Goban */
     --black: #1a1a1a;
     --border: #ddd;
 }
 
-* { box-sizing: border-box; } /* Fondamentale per il responsive */
+* { 
+    box-sizing: border-box; 
+}
 
 body { 
     font-family: 'Inter', sans-serif; 
@@ -15,124 +19,248 @@ body {
     color: var(--text); 
     margin: 0; 
     line-height: 1.6;
-    overflow-x: hidden; /* Evita scroll laterali fastidiosi */
+    overflow-x: hidden; 
 }
 
-/* --- NAVIGATION RESPONSIVE --- */
+/* --- NAVIGATION --- */
 nav { 
-    padding: 1rem 5%; 
+    padding: 1.2rem 5%; 
     display: flex; 
-    flex-wrap: wrap; /* Permette al menu di andare a capo su piccoli schermi */
+    flex-wrap: wrap; 
     justify-content: space-between; 
     align-items: center; 
     background: white; 
     border-bottom: 1px solid var(--border); 
-    position: sticky; top: 0; z-index: 1000;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
 }
 
-.logo-container { display: flex; align-items: center; gap: 10px; }
-.logo-circle { 
-    width: 40px; height: 40px; 
-    background: var(--black); color: white; 
-    border-radius: 50%; display: flex; align-items: center; justify-content: center; 
-    font-weight: 800; font-size: 0.7rem; 
+.logo-container { 
+    display: flex; 
+    align-items: center; 
+    gap: 15px; 
 }
-.logo-text { font-weight: 800; letter-spacing: 1px; font-size: 0.8rem; }
+
+.logo-circle { 
+    width: 45px; 
+    height: 45px; 
+    background: var(--black); 
+    color: white; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-weight: 800; 
+    font-size: 0.8rem; 
+}
+
+.logo-text { 
+    font-weight: 800; 
+    letter-spacing: 1px; 
+    font-size: 1rem;
+    text-transform: uppercase;
+}
 
 nav ul { 
-    display: flex; list-style: none; gap: 1rem; margin: 1rem 0 0 0; padding: 0;
-    width: 100%; justify-content: center; /* Menu centrato su mobile */
+    display: flex; 
+    list-style: none; 
+    gap: 1.5rem; 
+    margin: 1rem 0 0 0; 
+    padding: 0;
+    width: 100%; 
+    justify-content: center; 
 }
 
+nav a { 
+    text-decoration: none; 
+    color: var(--text); 
+    font-size: 0.95rem; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    transition: color 0.2s;
+}
+
+nav a:hover { color: var(--accent); }
+
+/* Desktop Adjustment for Nav */
 @media (min-width: 768px) {
-    nav { flex-wrap: nowrap; }
-    nav ul { width: auto; margin: 0; }
-    .logo-circle { width: 50px; height: 50px; font-size: 0.9rem; }
+    nav { flex-wrap: nowrap; padding: 1.5rem 5%; }
+    nav ul { width: auto; margin: 0; gap: 2.5rem; }
+    .logo-circle { width: 55px; height: 55px; font-size: 0.9rem; }
 }
 
-nav a { text-decoration: none; color: var(--text); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
-
-/* --- HERO RESPONSIVE --- */
+/* --- HERO SECTION --- */
 .hero { 
-    min-height: 40vh; 
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1529697210530-8c4bb1358ce7?auto=format&fit=crop&q=80&w=2000'); 
-    background-size: cover; background-position: center; 
-    display: flex; flex-direction: column; align-items: center; justify-content: center; 
-    color: white; text-align: center; padding: 2rem 5%; 
+    min-height: 45vh; 
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1529697210530-8c4bb1358ce7?auto=format&fit=crop&q=80&w=2000'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+    text-align: center; 
+    padding: 3rem 5%; 
 }
 
-.hero h1 { font-family: 'Playfair Display', serif; font-size: 2.2rem; margin: 0; line-height: 1.1; }
-.hero p { font-style: italic; font-size: 1rem; opacity: 0.9; margin-top: 10px; }
+.hero h1 { 
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.5rem; 
+    margin: 0; 
+    line-height: 1.1; 
+}
+
+.hero p { 
+    font-style: italic; 
+    font-size: 1.1rem; 
+    opacity: 0.9; 
+    margin-top: 15px; 
+}
 
 @media (min-width: 768px) {
     .hero { height: 55vh; }
-    .hero h1 { font-size: 4rem; }
-    .hero p { font-size: 1.3rem; }
+    .hero h1 { font-size: 4.5rem; }
+    .hero p { font-size: 1.5rem; }
 }
 
-/* --- CARD CONTAINER (LA PARTE CHE TI SERVE) --- */
+/* --- CARD SECTION --- */
 .card-container { 
     display: grid; 
-    grid-template-columns: 1fr; /* 1 colonna su mobile */
-    gap: 1.5rem; 
-    padding: 2rem 5%; 
+    grid-template-columns: 1fr; 
+    gap: 2rem; 
+    padding: 3rem 5%; 
     max-width: 1200px; 
     margin: 0 auto; 
 }
 
 @media (min-width: 768px) {
-    .card-container { grid-template-columns: 1fr 1fr; } /* 2 colonne su tablet */
-}
-
-@media (min-width: 1024px) {
-    .card-container { grid-template-columns: 1fr 1fr 1fr; } /* 3 colonne su desktop */
+    .card-container { grid-template-columns: repeat(3, 1fr); }
 }
 
 .card { 
     background: var(--card-bg); 
-    padding: 2rem; 
-    border-top: 4px solid var(--accent); 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+    padding: 2.5rem; 
+    border-top: 5px solid var(--accent); 
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05); 
+    display: flex;
+    flex-direction: column;
 }
-.card h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-top: 0; }
 
-/* --- LEADERBOARD RESPONSIVE --- */
-.leaderboard-section { width: 100%; max-width: 900px; margin: 2rem auto; padding: 0 5%; }
-.leaderboard-title { font-family: 'Playfair Display', serif; text-align: center; font-size: 1.8rem; }
+.card h2 { 
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.8rem; 
+    margin-top: 0; 
+    margin-bottom: 1rem;
+}
+
+.card p { 
+    font-size: 1.05rem; 
+    color: #444; 
+    margin-bottom: 0;
+}
+
+/* --- LEADERBOARD --- */
+.leaderboard-section { 
+    max-width: 900px; 
+    margin: 4rem auto; 
+    padding: 0 5%; 
+}
+
+.leaderboard-title { 
+    font-family: 'Playfair Display', serif; 
+    text-align: center; 
+    font-size: 2.2rem; 
+    margin-bottom: 2rem;
+}
 
 .table-container { 
-    background: white; border-radius: 4px; 
-    overflow-x: auto; /* Permette lo scroll se la tabella è troppo larga */
+    background: white; 
+    border-radius: 8px; 
+    overflow-x: auto; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 .team-row { 
     display: grid; 
-    grid-template-columns: 40px 1fr 80px; 
-    padding: 1rem; 
+    grid-template-columns: 50px 1fr 80px; 
+    padding: 1.2rem; 
     border-bottom: 1px solid #eee; 
     align-items: center;
-    min-width: 300px;
+    min-width: 350px;
 }
 
-/* hide column W-L on mobile */
-.win-loss { display: none; }
+.win-loss { display: none; } /* Nascosto su mobile */
 
-@media (min-width: 600px) {
-    .team-row { grid-template-columns: 60px 1fr 100px 100px; }
-    .win-loss { display: block; text-align: center; opacity: 0.5; font-size: 0.85rem; }
-    .leaderboard-title { font-size: 2.2rem; }
+@media (min-width: 650px) {
+    .team-row { grid-template-columns: 70px 1fr 100px 100px; }
+    .win-loss { display: block; text-align: center; opacity: 0.5; font-size: 0.9rem; }
 }
 
-.team-row.header { background: var(--black); color: white; font-size: 0.7rem; text-transform: uppercase; }
-.rank { font-weight: 800; color: var(--accent); }
-.city-info { font-weight: 600; display: flex; align-items: center; gap: 8px; }
-.points { text-align: center; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.1rem; }
+.team-row.header { 
+    background: var(--black); 
+    color: white; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    font-size: 0.8rem; 
+    letter-spacing: 1px;
+}
+
+.rank { font-weight: 800; color: var(--accent); font-size: 1.1rem; }
+.city-info { font-weight: 600; display: flex; align-items: center; gap: 10px; font-size: 1.1rem; }
+.points { 
+    text-align: center; 
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700; 
+    font-size: 1.3rem; 
+}
 
 /* --- NEXT STONE --- */
-.next-stone { background: var(--black); color: white; margin: 2rem 5%; padding: 2rem; text-align: center; }
-@media (min-width: 768px) {
-    .next-stone { margin: 4rem auto; padding: 3rem; max-width: 1100px; }
+.next-stone { 
+    background: var(--black); 
+    color: white; 
+    margin: 4rem 5%; 
+    padding: 3rem 2rem; 
+    text-align: center; 
+    border-radius: 4px;
 }
-.next-stone h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; }
 
-footer { text-align: center; padding: 3rem; font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; opacity: 0.5; }
+@media (min-width: 768px) {
+    .next-stone { margin: 6rem auto; padding: 4rem; max-width: 1100px; }
+}
+
+.next-stone span { 
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    font-size: 0.8rem; 
+    opacity: 0.6; 
+}
+
+.next-stone h3 { 
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.2rem; 
+    margin: 1.5rem 0; 
+}
+
+.next-stone a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 5px;
+}
+
+/* --- FOOTER --- */
+footer { 
+    text-align: center; 
+    padding: 5rem 1rem; 
+    font-size: 0.8rem; 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    opacity: 0.4; 
+}
