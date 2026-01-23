@@ -256,7 +256,7 @@ nav a:hover { color: var(--accent); }
 }
 
 /* --- BLOG PAGE --- */
-hero-small {
+.hero-small {
     padding: 6rem 5% 4rem; 
     background: var(--black); 
     color: white;
