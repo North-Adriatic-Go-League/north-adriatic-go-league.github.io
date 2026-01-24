@@ -4,14 +4,18 @@ title: "Artur Jonak von Frejenwald Memorial"
 date: 2025-11-29
 ---
 
-The third "Artur Jonak von Frejenwald Memorial" was organised on 29th november 2025 in the elementary School "Jože Šurana" in Višnjan. 
+**"Artur Jonak von Frejenwald Memorial 2025: Go Returns to Istria"**
 
-The first 3 places:
-1. Karlo Vlahovic	(2d), Velika Gorica
-2. Danijel Procek	(6k), Veliki Grđevac
-3. Davide Bertok (5k), Higashikita
+On **November 29, 2025**, the elementary school "Jože Šurana" in Višnjan hosted the third **"Artur Jonak von Frejenwald Memorial"** tournament, celebrating the Austrian officer who introduced Go to Europe over a century ago. Twenty players from **Croatia, Italy, and Slovenia** competed in three rounds (40 min + 3x20s byoyomi, EGD class B).
 
-Results: <https://europeangodatabase.eu/EGD/Tournament_Card.php?&key=T251129B>.
+**Top 3:**
+1. Karlo Vlahovic (2d, Velika Gorica)
+2. Danijel Procek (6k, Veliki Grđevac)
+3. Davide Bertok (5k, Higashikita)
+
+The event honored Jonak’s legacy—once called the "god of Go" for spreading the game in Pula—and marked Go’s revival in Istria after 110 years.
+
+**Full results:** [EGD Tournament Card](https://europeangodatabase.eu/EGD/Tournament_Card.php?&key=T251129B)
 
 ## Photos
 
@@ -19,18 +23,4 @@ Results: <https://europeangodatabase.eu/EGD/Tournament_Card.php?&key=T251129B>.
 ![Photo](/assets/jonakov2025/IMG_8869.jpg)
 ![Photo](/assets/jonakov2025/IMG_8871.jpg)
 ![Photo](/assets/jonakov2025/IMG_8875.jpg)
-![Photo](/assets/jonakov2025/IMG_8888.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0001.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0002.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0003.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0005.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0008.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0009.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0010.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0011.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0012.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0013.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0014.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0015.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0016.jpg)
 ![Photo](/assets/jonakov2025/IMG-20251129-WA0020.jpg)
