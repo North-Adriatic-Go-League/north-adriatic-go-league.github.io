@@ -59,6 +59,7 @@ nav {
     overflow: hidden; 
     background: transparent !important;
     box-shadow: none !important;
+    outline: none !important;
 }
 
 .logo-container img {
