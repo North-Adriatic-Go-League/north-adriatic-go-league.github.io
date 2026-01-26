@@ -52,12 +52,13 @@ nav {
 .logo-circle { 
     width: 50px;      
     height: 50px;
-    border: 1px solid #ddd; 
+    border: none !important; 
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden; 
-    background: white;
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 .logo-container img {
