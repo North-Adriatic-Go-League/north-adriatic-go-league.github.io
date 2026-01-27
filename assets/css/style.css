@@ -50,22 +50,21 @@ nav {
 }
 
 .logo-circle { 
-    width: 60px;      
-    height: 60px;
-    border: none !important; 
+    width: 60px !important;      
+    height: 60px !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: visible; 
+    overflow: visible !important; 
     background: transparent !important;
-    box-shadow: none !important;
-    outline: none !important;
 }
 
-.logo-container img {
-    max-width: 100%; 
-    height: auto;
-    object-fit: contain; 
+.logo-circle img {
+    width: 100% !important;   
+    height: 100% !important;  
+    object-fit: contain;      
+    
+    display: block;
 }
 
 .logo-text { 
