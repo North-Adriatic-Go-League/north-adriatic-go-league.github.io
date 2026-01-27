@@ -24,12 +24,12 @@ body {
 
 /* --- NAVIGATION --- */
 nav { 
-    padding: 0.8rem 5%; 
-    min-height: 90px;
+    padding: 1rem 5%; 
+    min-height: 80px;
     display: flex; 
-    flex-wrap: wrap; 
-    justify-content: space-between; 
+    flex-direction: column; 
     align-items: center; 
+    justify-content: center;
     border-bottom: 1px solid var(--border); 
     position: sticky; 
     top: 0; 
@@ -41,40 +41,32 @@ nav {
 .logo-container { 
     display: flex; 
     align-items: center; 
-    gap: 15px; 
-    height: auto !important;
-    overflow: visible !important; 
-}
-
-.logo-container:hover {
-    opacity: 0.7;
-    cursor: pointer;
-    transition: opacity 0.2s ease;
+    gap: 12px; 
+    text-decoration: none;
+    color: inherit;
 }
 
 .logo-circle { 
-    width: 60px !important;      
-    height: 60px !important;
-    min-width: 60px;
+    width: 50px !important;      
+    height: 50px !important;
+    min-width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: visible !important; 
-    background: transparent !important;
 }
 
 .logo-circle img {
-    width: auto !important;   
-    height: 100% !important;  
-    object-fit: contain;      
+    height: 100% !important;
+    width: auto !important;
+    object-fit: contain;
     max-width: none !important;
     display: block;
 }
 
 .logo-text { 
     font-weight: 800; 
-    letter-spacing: 1px; 
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     white-space: nowrap;
 }
@@ -82,8 +74,8 @@ nav {
 nav ul { 
     display: flex; 
     list-style: none; 
-    gap: 1.5rem; 
-    margin: 1rem 0 0 0; 
+    gap: 1.2rem; 
+    margin: 10px 0 0 0; 
     padding: 0;
     width: 100%; 
     justify-content: center; 
@@ -92,20 +84,41 @@ nav ul {
 nav a { 
     text-decoration: none; 
     color: var(--text); 
-    font-size: 0.95rem; 
-    font-weight: 600; 
+    font-size: 0.8rem; 
+    font-weight: 700; 
     text-transform: uppercase; 
     letter-spacing: 1px;
-    transition: color 0.2s;
 }
 
 nav a:hover { color: var(--accent); }
 
-/* Desktop Adjustment for Nav */
+/* --- DESKTOP ADJUSTMENT (Schermi sopra 768px) --- */
 @media (min-width: 768px) {
-    nav { flex-wrap: nowrap; padding: 1.5rem 5%; }
-    nav ul { width: auto; margin: 0; gap: 2.5rem; }
-    .logo-circle { width: 60px; height: 60px; font-size: 0.9rem; }
+    nav { 
+        flex-direction: row; /* Torna tutto su una riga */
+        justify-content: space-between; 
+        min-height: 90px;
+        padding: 0.8rem 5%;
+    }
+
+    nav ul { 
+        width: auto; 
+        margin: 0; 
+        gap: 2.5rem; 
+    }
+
+    .logo-circle { 
+        width: 60px !important; 
+        height: 60px !important; 
+    }
+
+    .logo-text { 
+        font-size: 1.1rem; 
+    }
+
+    nav a { 
+        font-size: 0.95rem; 
+    }
 }
 
 /* --- HERO SECTION --- */
