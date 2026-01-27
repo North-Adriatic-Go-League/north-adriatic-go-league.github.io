@@ -76,6 +76,7 @@ nav {
     letter-spacing: 1px; 
     font-size: 1rem;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 nav ul { 
