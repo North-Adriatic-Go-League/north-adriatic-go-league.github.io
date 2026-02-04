@@ -207,11 +207,16 @@ nav a:hover { color: var(--accent); }
     margin-bottom: 2rem;
 }
 
-.table-container { 
-    background: white; 
-    border-radius: 8px; 
-    overflow-x: auto; 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+.post-content img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+.back-link {
+  color: #3498db;
+  text-decoration: none;
 }
 
 .team-row { 
