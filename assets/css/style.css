@@ -376,6 +376,49 @@ nav a:hover { color: var(--accent); }
     font-weight: 800;
 }
 
+/* Badge Organizzatore */
+.org-badge {
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 5px 12px;
+    background: var(--black); 
+    color: white;
+    border: 1px solid var(--black);
+}
+
+/* Others club */
+.external-event {
+}
+
+.external-event .org-badge {
+    background: transparent; 
+    color: #888; 
+    border: 1px solid #ddd; 
+    font-weight: 400; 
+}
+
+.external-event h2 {
+    font-size: 2.2rem !important; 
+    color: #666 !important; 
+}
+
+.external-event .editorial-content {
+    opacity: 0.8; 
+}
+
+.event-entry img {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.event-entry:not(.external-event) {
+    border-left: 6px solid var(--accent); 
+    padding-left: 30px;
+}
+
 /* --- CUSTOM MAP POPUP STYLE --- */
 
 .leaflet-popup-content-wrapper {
