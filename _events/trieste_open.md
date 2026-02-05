@@ -6,4 +6,4 @@ location: "Trieste, IT"
 organizer: "NAGL"
 description: "A major gathering at the historic Trieste club. All levels welcome."
 ---
-Dettagli dell'evento qui...
+Detail lorem ipsum
