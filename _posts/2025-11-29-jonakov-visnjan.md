@@ -19,8 +19,8 @@ The event honored Jonak’s legacy—once called the "god of Go" for spreading t
 
 ## Photos
 
-![Photo](/assets/jonakov2025/IMG_8868.jpg)
-![Photo](/assets/jonakov2025/IMG_8869.jpg)
-![Photo](/assets/jonakov2025/IMG_8871.jpg)
-![Photo](/assets/jonakov2025/IMG_8875.jpg)
-![Photo](/assets/jonakov2025/IMG-20251129-WA0020.jpg)
+![Photo](/assets/images/jonakov2025/IMG_8868.jpg)
+![Photo](/assets/images/jonakov2025/IMG_8869.jpg)
+![Photo](/assets/images/jonakov2025/IMG_8871.jpg)
+![Photo](/assets/images/jonakov2025/IMG_8875.jpg)
+![Photo](/assets/images/jonakov2025/IMG-20251129-WA0020.jpg)
