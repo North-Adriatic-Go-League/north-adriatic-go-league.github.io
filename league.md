@@ -25,7 +25,7 @@ Below are the clubs currently participating in the League. You can explore their
 * [**Gorizia Go Club**](#) – Italy
 * [**Sežana Go Club**](#) – Slovenia
 * [**Udine Go Club**](#) – Italy
-* [**Poreč Go Club**](#) – Croatia
+* [**Go club Tesuji (Istria)**](/tesuji/) – Croatia
 * [**Ronchi Go Club**](#) – Italy
 
 Whether you are a 9-dan master or a curious beginner, there is a place for you at our table. Join us as we write the next chapter of Go in the North Adriatic.
