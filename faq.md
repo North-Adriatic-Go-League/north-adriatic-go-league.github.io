@@ -20,7 +20,7 @@ Our members/clubs/events are located in:
 
 There is no formal membership. Just show up at one of our club meetings or events — check the clubs and events pages for details.
 
-The most important thing is to become friends, the rest will follow naturally, and one day you'll feel like you're also part of NAGL :)
+The most important thing is to become friends. The rest will follow naturally, and one day you'll feel like you're part of NAGL :)
 
 ## I don't know how to play go
 
@@ -32,6 +32,10 @@ NAGL is an informal group that makes it easier to organize cross-border events. 
 - Italy: [FIGG](https://figg.org)
 - Croatia: [HGS](https://hgos.hr/)
 - Slovenia: [SGF](https://go-zveza.si/)
+
+## Is there an official language
+
+Yes, there are 3 official languages: Slovenian, Italian and Croatian :) Many of us speak 2 or 3 common languages. But there's always English as a backup solution.
 
 ## How do I contact NAGL?
 
