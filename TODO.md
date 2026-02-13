@@ -3,29 +3,32 @@
 ## v0 NAGL website
 
 - prerequisites
-	- simple logo
+	- ~~simple logo~~
 	- image on the front page
 
 - top navigation links
-	- League: basic description + list of clubs + link to the calendar page
+	- League: ~~basic description + list of clubs + link to the calendar page~~
 	- Map:
-		- Club and places where (and when) we meet
-	- List of events: by default events organized by ur clubs but add also events organized by the federations or other clubs -- but shown in a different color or a note explaining...
+		- ~~Club and places where (and when) we meet~~
+	- List of events: by default events organized by ur clubs ~~but add also ~~ events organized by the federations or other clubs will be added to blog
 	- Blog
 		- add events from the last 2-3 years
 
 - Main page:
 	- 3 cards -- leave them, eventually rephrase a couple of sentences
-	- League standings -- leave out for now, until we decide on the tournaments and rules
-	- "The Next Stone" -- replace with the next events
+	- ~~League standings -- leave out for now, until we decide on the tournaments and rules~~
+	- ~~"The Next Stone" -- replace with the next events~~
 
-- Html template (Mario)
+- ~~Html template (Mario)~~
 - Logo and images (Mario)
 - Blog (Tomo)
 - League (Tomo)
 - Clubs (Tomo)
 - List of events (Tomo)
+- Add a page with an explanation to join us/join community (Mario)
+- Add email contact : tomo@gmail.com (Mario)
 
 ## v1 NAGL website
 
 - buy an internet domain
+- Resources to learn and play go
