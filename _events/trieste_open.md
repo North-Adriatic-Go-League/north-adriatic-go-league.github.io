@@ -1,9 +1,20 @@
 ---
 layout: post
-title: "Trieste International Tournament"
-date: 2026-03-15
+title: "Trieste Tournament"
+date: 2026-03-22
 location: "Trieste, IT"
 organizer: "NAGL"
-description: "A major gathering at the historic Trieste club. All levels welcome."
+description: "An official Class C tournament in the heart of Trieste, 5 rounds. All levels welcome."
 ---
-Detail lorem ipsum
+The Higashikita Go Club is pleased to announce the upcoming **Class C Open**, a key event for regional ranking and competitive growth.
+
+The tournament will feature **5 rounds** under the MacMahon system, ensuring balanced and challenging matches for all participants. It is a perfect opportunity to experience Go in one of the most historic settings of the North Adriatic region.
+
+### Details Coming Soon
+We are currently finalizing the logistical arrangements to provide the best possible playing experience.
+
+* **Format:** 5 Rounds (Class C)
+* **Venue:** Historic Center, Trieste
+* **Registration:** Opening soon
+
+Full details regarding schedule, entry fees will be published on this page in the coming days. Stay tuned.
