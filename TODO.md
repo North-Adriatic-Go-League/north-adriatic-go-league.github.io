@@ -10,7 +10,7 @@
 	- League: ~~basic description + list of clubs + link to the calendar page~~
 	- Map:
 		- ~~Club and places where (and when) we meet~~
-	- List of events: by default events organized by ur clubs ~~but add also ~~ events organized by the federations or other clubs will be added to blog
+	- List of events: by default events organized by ur clubs ~~but add also~~ events organized by the federations or other clubs will be added to blog
 	- Blog
 		- add events from the last 2-3 years
 
