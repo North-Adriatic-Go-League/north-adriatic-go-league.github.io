@@ -3,7 +3,7 @@ layout: post
 title: "Sente Go Club Tournament"
 date: 2026-05-26
 location: "Ronchi dei Legionari, IT"
-organizer: "Sente Go Club"
+organizer: "NAGL"
 description: "A full day of Go in Ronchi."
 ---
 
