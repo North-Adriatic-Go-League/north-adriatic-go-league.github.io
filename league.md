@@ -21,10 +21,9 @@ While the spirit of competition drives our matches, the NAGL is primarily a comm
 ### Our Founding Clubs
 Below are the clubs currently participating in the League. You can explore their local activities through the links below:
 
-* [**Higashikita Go Club (Trieste)**](#) – Italy
-* [**Higashikita Go Club (Udine)**](#) – Italy
-* [**Sente Go Club (Gorizia)**](#) – Italy
-* [**GO društvo Club(Sežana)**](#) – Slovenia
+* [**Higashikita Go Club (Trieste/Udine)**](/higashikita) – Italy
+* [**Sente Go Club (Gorizia)**](/sente) – Italy
+* [**GO društvo Club(Sežana)**](/sezana) – Slovenia
 * [**Go club Tesuji (Istria)**](/tesuji/) – Croatia
 
 Whether you are a 9-dan master or a curious beginner, there is a place for you at our table. Join us as we write the next chapter of Go in the North Adriatic.
