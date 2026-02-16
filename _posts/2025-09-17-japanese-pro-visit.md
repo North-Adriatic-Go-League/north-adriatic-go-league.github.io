@@ -2,6 +2,7 @@
 layout: post
 title: "Japanese Pro Visit"
 date: 2025-09-17
+published: false
 ---
 
 It was a great pleasure spending time with our new go friends from Japan. Hajime Kikkawa (Japanese professional player, 4 dan) played several simultaneous games with members of our club. After each game, he pointed out some of the mistakes we made and advised everyone on what to focus on to become a better player.
