@@ -1,5 +1,5 @@
 ---
-layout: events
+layout: editorial
 title: "FAQ"
 subtitle: "Frequently asked questions"
 permalink: /faq/
