@@ -5,7 +5,7 @@ subtitle: "Gorizia, Italy"
 permalink: /sente/
 ---
 
-![Go club Sente](/assets/images/tesuji/sente.jpg)
+![Go club Sente](/assets/images/sente/sente.jpg)
 
 Sente Go Club is a community dedicated to the study and promotion of Go and the great strategic traditions of the East, such as Shogi and Xiangqi. The club’s name reflects the fundamental concept of "initiative"—the ability to lead the game through decisive action.
 
