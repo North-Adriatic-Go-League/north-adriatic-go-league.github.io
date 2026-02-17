@@ -30,6 +30,8 @@ This event was a crucial step for many participants to refine their rank and for
 ### Final Results
 The tournament concluded with a celebration of the winners and, more importantly, the collective progress of our regional network. Every game played on March 30th has contributed to the solid foundation of the North Adriatic Go League.
 
+[Here you can find all the results!](https://europeangodatabase.eu/EGD/Tournament_Card.php?&key=T250330A&pin=20601042)
+
 > "A tournament is not just about the winner, but about the quality of the games we leave behind."
 
 ![Group Photo](/assets/images/sente/sente_tournament4.jpg)
