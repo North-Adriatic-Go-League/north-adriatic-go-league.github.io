@@ -1,7 +1,7 @@
 ---
 layout: editorial
-title: "Go club Sente (Friuli / Italy)"
-subtitle: "Friuli"
+title: "Go club Sente"
+subtitle: "Gorizia, Italy"
 permalink: /sente/
 ---
 
