@@ -36,6 +36,6 @@ layout: default
     {% if last_event %}
         <h3>{{ last_event.title }}</h3>
         <p>{{ last_event.date | date: "%d %B, %Y" }}</p>
-        <a href="{{ last_event.url | relative_url }}">Read Details →</a>
+        <a href="{{ /events/ }}">Go to Events →</a>
     {% endif %}
 </section>
