@@ -35,7 +35,9 @@ NAGL is an informal group that makes it easier to organize cross-border events. 
 
 ## Is there an official language
 
-Yes, there are 3 official languages: Slovenian, Italian and Croatian. Friulian and all the local dialects are also well regarded! Many of us speak 2 or 3 common languages. But there's always English as a backup solution.
+English is our primary language for cross-border communication, but the NAGL is naturally multilingual. We officially embrace the three languages of our region—Slovenian, Italian, and Croatian—along with the various local dialects that represent our roots.
+
+Many of us speak two or three of these fluently, and English remains our reliable common ground for ensuring everyone understand each other.
 
 ## How do I contact NAGL?
 
