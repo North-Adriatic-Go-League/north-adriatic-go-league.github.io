@@ -1,7 +1,7 @@
 ---
 layout: editorial
 title: "Go club Higashikita"
-subtitle: "Friuli Venezia Giulia"
+subtitle: "Trieste, Italy"
 permalink: /higashikita/
 ---
 
