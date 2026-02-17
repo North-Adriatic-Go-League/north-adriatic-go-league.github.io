@@ -5,10 +5,10 @@ subtitle: "Friuli Venezia Giulia"
 permalink: /higashikita/
 ---
 
-Higashikita nasce nel 2004 su iniziativa di Davide Bertok, Sandro Poldrugo e Stefano Artesi di Trieste, Mirtha Barbetti di Cormons, Paolo Driussi di Udine e Ivo Clarini e Marco Gotti di Ragogna, con l'obiettivo di giocare con un numero di giocatori più ampio di quello della propria città.
+Higashikita was founded in 2004 by a group of passionate players from across the region, driven by the goal of building a community that transcends local boundaries.
 
-Oggi, l'Higashikita rappresenta l'espressività del gioco del Go in Friuli Venezia Giulia, articolandosi in quattro sezioni, una per ogni provincia della regione. In particolare, le sezioni di Trieste e Gorizia contribuiscono in modo significativo alla promozione e alla diffusione di questa antica arte.
+Today the club operates through three dedicated sections.
 
-Si organizzano regolarmente incontri, tornei e attività didattiche, coinvolgendo appassionati di tutte le età. La loro capacità di creare momenti di condivisione e apprendimento ha reso l'Higashikita un punto di riferimento per chiunque abbia voglia di avvicinarsi al mondo del Go, favorendo la crescita di una rete sempre più solida e partecipata a tutto il Friuli Venezia Giulia.
+By organizing regular meetups, competitive tournaments, and educational programs, Higashikita has become the primary landmark for players of all ages. It fosters a culture of shared learning and connection, creating a solid and ever-growing network of enthusiasts throughout the territory.
 
-[link](https://www.higashikita.go.it)
+[Visit our website!](https://www.higashikita.go.it)
