@@ -23,5 +23,6 @@ Sente Go Club is not just about playing games; it is about building a study envi
 *The board is set, and the first move has been played. We invite everyone to join us in this new adventure.*
 
 ---
-**Visit Sente Go Club**
-c/o Giochi a gogò, Ronchi dei Legionari.
+[**Visit Sente Go Club**
+c/o Giochi a gogò, Ronchi dei Legionari.]
+(https://www.giochiagogo.it/sente/)
