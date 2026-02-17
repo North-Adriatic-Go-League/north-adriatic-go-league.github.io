@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "1st Ronchi Go Tournament"
-date: 2024-03-30
+date: 2025-03-30
 published: true
 ---
 
