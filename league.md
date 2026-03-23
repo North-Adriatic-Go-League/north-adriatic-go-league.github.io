@@ -27,3 +27,10 @@ A player's total score is the sum of all their points across every league tourna
 ### Final Standings
 
 Players are ranked by total points, highest first. The more tournaments you play — and the better you perform relative to other league participants — the higher you climb.
+
+### Tournaments
+
+- 8th Trieste tournament<sup>1</sup>
+- Ronchi ...
+
+<sup>1</sup> First tournament of the league where participants are introduced to the rules. Participation in this tournament count as participation in Italy, no points given.
