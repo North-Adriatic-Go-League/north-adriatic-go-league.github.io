@@ -1,29 +1,29 @@
 ---
 layout: editorial
-title: "The Vision"
-subtitle: "Crossing borders, one stone at a time."
+title: "The League System"
+subtitle: "How scoring works across tournaments."
 permalink: /league/
+label: How It Works
 ---
 
-The **North Adriatic Go League** (NAGL) was born from a simple yet profound realization: the ancient game of Go knows no borders. In a region where history has often drawn lines, we choose to place stones that connect them.
+## How the League Works
 
-### A Triple Frontier
-Our league spans across **Italy, Slovenia, and Croatia**, bringing together clubs from the Karst plateaus to the Istrian coast. We believe that the strategic depth of Go provides a universal language for friendship, intellectual growth, and cultural exchange.
+The North Adriatic Go League tracks player performance across multiple tournaments held in different countries — Italy, Slovenia, and Croatia.
 
-### Beyond Competition
-While the spirit of competition drives our matches, the NAGL is primarily a community project. We aim to:
-* **Support** local clubs in growing their youth sections.
-* **Organize** cross-border workshops and seminars.
-* **Foster** a new generation of players who see the Adriatic not as a barrier, but as a shared home.
+### Qualifying
 
-> "The board is a mirror of the mind; the league is a mirror of our shared future."
+Not every tournament player makes it into the league standings. To qualify, a player must compete in tournaments across at least two different countries. This rewards players who travel and play internationally, rather than dominating a single local scene.
 
-### Our Founding Clubs
-Below are the clubs currently participating in the League. You can explore their local activities through the links below:
+### Scoring
 
-* [**Higashikita Go Club (Trieste/Udine)**](/higashikita) – Italy
-* [**Sente Go Club (Gorizia)**](/sente) – Italy
-* [**GO društvo Club(Sežana)**](/sezana) – Slovenia
-* [**Go club Tesuji (Istria)**](/tesuji/) – Croatia
+Each tournament has a pool of placement points: **10, 8, 6, 4, 2**. As the results are processed top to bottom, each league participant found takes the next available value from the pool — so the first league participant gets 8, the second gets 7, and so on.
 
-Whether you are a 9-dan master or a curious beginner, there is a place for you at our table. Join us as we write the next chapter of Go in the North Adriatic.
+Non-league participants are skipped entirely, so finishing ahead of them doesn't consume any points. What matters is how a player ranks among other league participants in that tournament.
+
+Players who don't place high enough to claim pool points still receive **1 point** for competing.
+
+A player's total score is the sum of all their points across every league tournament they entered.
+
+### Final Standings
+
+Players are ranked by total points, highest first. The more tournaments you play — and the better you perform relative to other league participants — the higher you climb.
