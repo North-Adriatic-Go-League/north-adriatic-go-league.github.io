@@ -152,7 +152,7 @@ nav a:hover { color: var(--accent); }
     width: 100%;
     max-width: 450px;
     height: 37.5%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: top;
     pointer-events: none;
     z-index: 1;
