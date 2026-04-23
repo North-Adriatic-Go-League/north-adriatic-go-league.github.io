@@ -31,6 +31,9 @@ Players are ranked by total points, highest first. The more tournaments you play
 ### Tournaments
 
 - 8th Trieste tournament<sup>1</sup>
-- Ronchi ...
+- 1° Torneo di Go – SENTE (April, 26th)
+- GO in the heart of land of Teran (May, 17th)
+- Jonak Memorial (October, 17th)
+- (Maybe another tournament at the end of the year)
 
 <sup>1</sup> First tournament of the league where participants are introduced to the rules. Participation in this tournament count as participation in Italy, no points given.
