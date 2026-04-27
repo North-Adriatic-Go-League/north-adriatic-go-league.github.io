@@ -22,9 +22,14 @@ Non-league participants are skipped entirely, so finishing ahead of them doesn't
 
 Players who don't place high enough to claim pool points still receive **1 point** for competing.
 
-If *N* is the number of tournaments, a player's total score is calculated as follows:
-- If a player enters *N* tournaments: sum of their best *(N - 1)* scores
-- If a player enters *N-1* or fewer tournaments: sum of all their scores
+If *N* is the number of tournaments, a player's total score is calculated as the sum of her/his *N-1* best scores in single tournaments. If the player attended less than *N-1* tournaments -- it's the count of all the scores.
+
+For example:
+- player attended all 4 tournaments: his score is the sum of the best 3 of his 4 tournament scores.
+- player attended 3 tournaments: his score is the sum of his 3 tournaments
+- player attended less than 3 tournaments: his score is the sum of his tournament scores
+
+Reasoning: We don't want to penalise too much players who wanted to attend all tournaments but missed just one tournament.
 
 ### Final Standings
 
