@@ -33,10 +33,24 @@ layout: default
 
 <section class="next-stone">
     <span>The Next Event</span>
-    {% assign last_event = site.events.first %}
-    {% if last_event %}
-        <h3>{{ last_event.title }}</h3>
-        <p>{{ last_event.date | date: "%d %B, %Y" }}</p>
+    {% assign now_timestamp = site.time | date: '%s' %}
+    {% assign next_event = nil %}
+    {% assign min_event_timestamp = nil %}
+    {% for event in site.events %}
+        {% assign event_timestamp = event.date | date: '%s' %}
+        {% if event_timestamp >= now_timestamp %}
+            {% if min_event_timestamp == nil or event_timestamp < min_event_timestamp %}
+                {% assign min_event_timestamp = event_timestamp %}
+                {% assign next_event = event %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% if next_event %}
+        <h3>{{ next_event.title }}</h3>
+        <p>{{ next_event.date | date: "%d %B, %Y" }}</p>
+        <a href="{{ '/events/' | relative_url }}">See all Events →</a>
+    {% else %}
+        <h3>No upcoming events</h3>
         <a href="{{ '/events/' | relative_url }}">See all Events →</a>
     {% endif %}
 </section>
