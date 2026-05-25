@@ -10,6 +10,8 @@ label: How It Works
 
 The North Adriatic Go League tracks player performance across multiple tournaments held in different countries — Italy, Slovenia, and Croatia.
 
+The 2026. league season will be **experimental**. The rules might change for 2027. years on.
+
 ### Qualifying
 
 Not every tournament player makes it into the league standings. To qualify, a player must compete in tournaments across at least two different countries. This rewards players who travel and play internationally, rather than dominating a single local scene.
@@ -34,6 +36,18 @@ Reasoning: We don't want to penalise too much players who wanted to attend all t
 ### Final Standings
 
 Players are ranked by total points, highest first. The more tournaments you play — and the better you perform relative to other league participants — the higher you climb.
+
+### Temporary standings (after the Karst tournament):
+
+- Potrata Marko (16 points)
+- Kralj Andrej (10 points)
+- Bastianetto Edoardo (9 points)
+- Hajdukovic Ziga (8 points)
+- Bertok Davide (7 points)
+- Krajina Tomo (4 points)
+- Milavec Dusan (2 points)
+- Cotar Dalibor (1 points)
+- Jaksa Sara (1 points)
 
 ### Tournaments
 
