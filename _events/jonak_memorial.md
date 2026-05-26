@@ -14,7 +14,7 @@ The event will bring together players from across Croatia, Italy, and Slovenia t
 ### Tournament Overview
 The Memorial is designed to be a high-level meeting point for the autumn season. While specific details are currently being organized, the event will follow international tournament standards.
 
-* **Date:** November 2026 (Final date TBC)
+* **Date:** October/November 2026 (Final date TBC)
 * **Location:** Poreč, Croatia
 * **Atmosphere:** Commemorative & Competitive
 * **Details:** Coming soon
